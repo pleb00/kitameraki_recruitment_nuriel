@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Create database for users",
+      "description": "Backend"
+    },
+    {
+      "id": 2,
+      "title": "Create layout for user menu",
+      "description": "Frontend"
+    },
+    {
+      "id": 3,
+      "title": "Create mobile form for user",
+      "description": "Mobile"
+    },
+    {
+      "id": 4,
+      "title": "Create auth endpoints",
+      "description": "Backend"
+    },
+    {
+      "id": 5,
+      "title": "Create layout for login and register",
+      "description": "Mobile"
+    },
+    {
+      "id": 6,
+      "title": "Create layout for landing page",
+      "description": "Frontend"
+    },
+    {
+      "title": "Create graph ql for mongoDB query",
+      "description": "FrontEnd",
+      "id": 7
+    },
+    {
+      "title": "Create Docker file",
+      "description": "Mobile",
+      "id": 8
+    },
+    {
+      "title": "Belajar logic JS",
+      "description": "Logic",
+      "id": 9
+    },
+    {
+      "title": "halo bandung ibukota perjuangan",
+      "description": "Logic",
+      "id": 10
+    }
+  ]
+}
