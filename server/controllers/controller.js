@@ -3,7 +3,7 @@ const fs = require("fs");
 class Controller {
   static async fetchTasks(req, res, next) {
     try {
-      let { tasks } = require("../data/tasks.json");
+      let tasks = require("../data/tasks.json");
       const page = req.query.page || 1;
       const limit = 5;
 
@@ -18,6 +18,7 @@ class Controller {
       });
     } catch (error) {
       res.status(500).json({ error: "Internal server error" });
+      console.log(error);
     }
   }
 
@@ -67,7 +68,7 @@ class Controller {
       tasks.splice(target, 1);
       fs.writeFile(
         "./data/tasks.json",
-        JSON.stringify(jsonData, null, 2),
+        JSON.stringify(tasks, null, 2),
         (err) => {
           if (err) {
             return res.status(500).json({ error: "Failed to delete task" });
@@ -76,6 +77,7 @@ class Controller {
         }
       );
     } catch (error) {
+      console.log(error);
       res.status(500).json({ error: "Internal server error" });
     }
   }

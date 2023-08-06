@@ -1,54 +1,52 @@
-{
-  "tasks": [
-    {
-      "id": 1,
-      "title": "Create database for users",
-      "description": "Backend"
-    },
-    {
-      "id": 2,
-      "title": "Create layout for user menu",
-      "description": "Frontend"
-    },
-    {
-      "id": 3,
-      "title": "Create mobile form for user",
-      "description": "Mobile"
-    },
-    {
-      "id": 4,
-      "title": "Create auth endpoints",
-      "description": "Backend"
-    },
-    {
-      "id": 5,
-      "title": "Create layout for login and register",
-      "description": "Mobile"
-    },
-    {
-      "id": 6,
-      "title": "Create layout for landing page",
-      "description": "Frontend"
-    },
-    {
-      "title": "Create graph ql for mongoDB query",
-      "description": "FrontEnd",
-      "id": 7
-    },
-    {
-      "title": "Create Docker file",
-      "description": "Mobile",
-      "id": 8
-    },
-    {
-      "title": "Belajar logic JS",
-      "description": "Logic",
-      "id": 9
-    },
-    {
-      "title": "halo bandung ibukota perjuangan",
-      "description": "Logic",
-      "id": 10
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Create database for users",
+    "description": "Backend"
+  },
+  {
+    "id": 2,
+    "title": "Design user interface",
+    "description": "Frontend"
+  },
+  {
+    "id": 3,
+    "title": "Implement user authentication",
+    "description": "Backend"
+  },
+  {
+    "id": 4,
+    "title": "Optimize website performance",
+    "description": "Frontend"
+  },
+  {
+    "id": 5,
+    "title": "Create mobile app layout",
+    "description": "Mobile"
+  },
+  {
+    "id": 6,
+    "title": "Implement user authorization",
+    "description": "Backend"
+  },
+  {
+    "id": 7,
+    "title": "Write unit tests",
+    "description": "Testing"
+  },
+  {
+    "id": 8,
+    "title": "Optimize database queries",
+    "description": "Backend"
+  },
+  {
+    "id": 9,
+    "title": "Create responsive design",
+    "description": "Frontend"
+  },
+  {
+    "id": 10,
+    "title": "Implement push notifications",
+    "description": "Mobile"
+  }
+]
